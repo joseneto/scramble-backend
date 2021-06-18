@@ -69,10 +69,12 @@ $ lein midje :filter unit
 The project was divided as follows:
 
 * [src/scramble_backend/handler.clj] - This is our main file, where all requests are packed and the routes are created.
+* [src/scramble_backend/middleware.clj] - Middleware created to manage CORS policy.
 * [src/scramble_backend/libs/string_library.clj] - This file contains the scramble functions.
-* [test/scramble_backend/auxiliary.clj] - File with some help functions for the tests
-* [test/scramble_backend/acceptance_test.clj] -  This file realize all acceptence tests
-* [test/scramble_backend/unit_test.clj] -  This file realize all unit tests
+* [test/scramble_backend/auxiliary.clj] - File with some help functions for the tests.
+* [test/scramble_backend/acceptance_test.clj] -  This file realize all acceptence tests.
+* [test/scramble_backend/unit_test.clj] -  This file realize all unit tests.
+
 
 
 
