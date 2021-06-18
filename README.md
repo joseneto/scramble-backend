@@ -4,7 +4,7 @@
 
 This project it's a simple backend service that receive two strings and apply the scramble function that check if a of the strings can be rearranged with another
 
-### Librarys
+### Libraries
 
 Scramble Task use some open source libraries:
 
@@ -72,7 +72,7 @@ The project was divided as follows:
 * [src/scramble_backend/libs/string_library.clj] - This file contains the scramble functions.
 * [test/scramble_backend/auxiliary.clj] - File with some help functions for the tests
 * [test/scramble_backend/acceptance_test.clj] -  This file realize all acceptence tests
-* [test/scramble_backend/unit_test.clj] -  This file realize all acceptence tests
+* [test/scramble_backend/unit_test.clj] -  This file realize all unit tests
 
 
 
