@@ -49,7 +49,7 @@ How you can use that services.
 
 ### Tests
 
-Scramble Task was built using TDD(Test Driven Development), all development was guided by the tests, we have units tests and acceptance tests that can be easily executed running with Leininger.
+Scramble Task was built using TDD(Test Driven Development), all development was guided by the tests, we have units tests and acceptance tests that can be easily executed running with midje.
 
 Running all tests:
 ```sh
